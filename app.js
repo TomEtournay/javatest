@@ -43,7 +43,7 @@ function handleFiles(files) {
 }
 
 function uploadFile(file) {
-  const url = 'upload.php'
+  const url = '/upload.php'
   const formData = new FormData()
 
   formData.append('file', file)
